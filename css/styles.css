@@ -98,6 +98,7 @@ ul.social-media-list {
 } 
 .content img {
     float: left;
+    flex-wrap: wrap;
     padding: 20px; 
 }
 .content {
@@ -190,7 +191,7 @@ button {
     padding: 15px; 
 }    
 .photo1 {
-    height: 400px;
+    height: 440px;
     text-align: center;
     grid-area: foto;
     background-color: #0D5451; 
@@ -199,7 +200,7 @@ button {
     padding: 60px; 
 }   
 .queertrip {
-    height: 400px;
+    height: 440px;
     grid-area: qt; 
     background-color: #0D5451; 
 } 
@@ -208,7 +209,7 @@ button {
     font-family: 'Titillium Web', sans-serif;
 } 
 .photo2 {
-    height: 400px;
+    height: 440px;
     text-align: center;
     grid-area: fototeach; 
     background-color: #E4C326; 
@@ -217,7 +218,7 @@ button {
     padding: 60px; 
 }  
 .teachwithafrica {
-    height: 400px;
+    height: 440px;
     grid-area: twa; 
     background-color: #E4C326; 
 } 
@@ -232,7 +233,7 @@ button {
     margin-left: 50px;  
 } 
 .photo3 {
-    height: 400px;
+    height: 440px;
     text-align: center;
     grid-area: fotonational; 
     background-color: #C7988D; 
@@ -245,16 +246,22 @@ button {
     text-align: center;
 } 
 .nationalparks {
-    height: 400px;
+    height: 440px;
     grid-area: np; 
     background-color: #C7988D; 
 } 
+.moreprojects img{
+    margin-left: 60%;
+    float: right; 
+    margin: 5px 5px 5px 5px;
+} 
+
 .nationalparks p{  
     font-family: 'Titillium Web', sans-serif;
-} 
+}  
 .footerlist li {
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
     text-align: center;
     display: inline-block;
     align-self: center;
@@ -279,8 +286,8 @@ button {
         grid-template-areas: 
         "foto" 
         "qt" 
-        "twa" 
         "fototeach" 
+        "twa" 
         "fotonational"
         "np"   
     } 
