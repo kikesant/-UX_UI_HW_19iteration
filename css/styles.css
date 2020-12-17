@@ -3,11 +3,15 @@ html {
     max-width: 1500px;
 }
 h1 {
-    font-family: 'Lato', sans-serif;
-    padding: 10px
+    font-family: 'Lekton', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 35px;
 }
 .heroImg {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lekton', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
 }
 li {
     font-family: 'Lato', sans-serif;
@@ -70,7 +74,7 @@ ul.social-media-list {
     margin-left: 40px; 
     top:0px;
     right:0;  
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lekton', sans-serif;
 }
 .inline-block ul {
     position:absolute;
@@ -132,7 +136,7 @@ button {
     text-align: center; 
 } 
 .mySkills p {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-align: center;  
 } 
 .mySkills h3 {
@@ -159,24 +163,27 @@ button {
     grid-template-columns: 50% 50%; 
     grid-template-areas: 
     "foto qt" 
-    "fototeach twa" 
+    "twa fototeach" 
     "fotonational np"   
 } 
 .myWork h1 {
     text-align: center;
 }    
 h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold; 
     margin-top: 60px; 
     margin-right: 30px;
-    font-family: 'Lato', sans-serif;
     text-align: left; 
-    font-size: 25px; 
+    font-size: 30px; 
 }
+.queertrip h4{
+    color: white;
+} 
 .workGrid p{
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-align: left; 
     font-size: 18px;
-    font-weight: bold; 
     margin-right: 30px;
 } 
 button {
@@ -186,7 +193,7 @@ button {
     height: 400px;
     text-align: center;
     grid-area: foto;
-    background-color: #E4E0E7; 
+    background-color: #0D5451; 
 } 
 .photo1 img {
     padding: 60px; 
@@ -194,13 +201,17 @@ button {
 .queertrip {
     height: 400px;
     grid-area: qt; 
-    background-color: #E4E0E7; 
+    background-color: #0D5451; 
+} 
+.queertrip p {
+    color: white; 
+    font-family: 'Titillium Web', sans-serif;
 } 
 .photo2 {
     height: 400px;
     text-align: center;
     grid-area: fototeach; 
-    background-color: #E3E9F8; 
+    background-color: #E4C326; 
 }
 .photo2 img {
     padding: 60px; 
@@ -208,13 +219,23 @@ button {
 .teachwithafrica {
     height: 400px;
     grid-area: twa; 
-    background-color: #E3E9F8; 
+    background-color: #E4C326; 
+} 
+.teachwithafrica h4{
+    margin-left: 50px;  
+} 
+.teachwithafrica p{
+    margin-left: 50px;  
+    font-family: 'Titillium Web', sans-serif;
+} 
+.teachwithafrica button{
+    margin-left: 50px;  
 } 
 .photo3 {
     height: 400px;
     text-align: center;
     grid-area: fotonational; 
-    background-color: #F1EBF0; 
+    background-color: #C7988D; 
 }
 .photo3 img {
     padding: 60px; 
@@ -226,7 +247,10 @@ button {
 .nationalparks {
     height: 400px;
     grid-area: np; 
-    background-color: #F1EBF0; 
+    background-color: #C7988D; 
+} 
+.nationalparks p{  
+    font-family: 'Titillium Web', sans-serif;
 } 
 .footerlist li {
     margin-top: 20px;
