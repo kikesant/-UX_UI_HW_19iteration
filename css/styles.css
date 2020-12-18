@@ -14,7 +14,8 @@ h1 {
     line-height: 1.5;
 }
 li {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
 }
 body {margin: 12%}
 .heroImg p {
@@ -24,14 +25,27 @@ body {margin: 12%}
     display: inline-block;
     vertical-align: right; 
 }
+.inline-block ul {
+    display:inline-block;
+    position:absolute;
+    margin-right:-190px;
+    margin-top: 90px;
+    top:100px;
+    right:0; 
+    justify-content: flex-end;
+    width: 50%;
+    margin-left: 70%;
+    word-spacing: 2rem;
+    vertical-align: right; 
+}
 header {
     padding: 2%;
-    margin-left: 50px;
+    margin-left: 0px;
 }    
-.logo {
-    position:absolute;
-    top:80px;
-    left: 220px; 
+.logo img {
+    position: relative;
+    margin-top: -300px;
+    align-self: flex-start;
     padding: 1%;
 }
 .navigation p {
@@ -67,25 +81,6 @@ ul.social-media-list {
     margin: 0;
     padding: 0;
     font-size: 0px; /* eliminate space between li */
-}
-.kike {
-    display: inline-block;
-    position: absolute;
-    margin-left: 40px; 
-    top:0px;
-    right:0;  
-    font-family: 'Lekton', sans-serif;
-}
-.inline-block ul {
-    position:absolute;
-    margin-right:-200px;
-    top:100px;
-    right:0; 
-    justify-content: flex-end;
-    width: 50%;
-    margin-left: 65%;
-    word-spacing: 2rem;
-    font-weight: bold;
 }
 .heroImg section {
     margin-top:-20px;
@@ -185,8 +180,11 @@ h4 {
     font-family: 'Titillium Web', sans-serif;
     text-align: left; 
     font-size: 18px;
-    margin-right: 30px;
+    margin-right: 40px;
 } 
+.workGrid img {
+    margin-top: 20px; 
+}       
 button {
     padding: 15px; 
 }    
