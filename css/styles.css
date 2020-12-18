@@ -124,34 +124,6 @@ button {
 } 
 /* <!--  My UX Skills section coded using CSS flex -->*/
 
-.mySkills section{
-    padding: 10px;
-}  
-.mySkills h1 {
-    font-family: 'Lato', sans-serif;
-    text-align: center; 
-} 
-.mySkills p {
-    font-family: 'Titillium Web', sans-serif;
-    text-align: center;  
-} 
-.mySkills h3 {
-    font-family: 'Lato', sans-serif;
-    text-align: center; 
-} 
-.flexContainer { 
-    display: flex;
-    padding: 5px;
-    flex-direction: row;
-} 
-.flexContainer div { 
-    background-color: #F9F9F9;
-    width: 33%;
-    padding: 20px; 
-    margin: 10px;
-    text-align: center; 
-} 
-
 /* <!--  My Work section coded using CSS grid -->*/
 .workGrid { 
     padding: 5px;
