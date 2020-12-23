@@ -25,6 +25,7 @@ body {margin: 12%}
 .inline-block {
     display: inline-block;
     vertical-align: right; 
+    cursor: pointer;
 }
 .inline-block ul {
     display:inline-block;
@@ -125,6 +126,7 @@ button {
     padding: 15px; 
     width: 169px;
     height: 52;
+    cursor: pointer;
 } 
 /* <!--  My UX Skills section coded using CSS flex -->*/
 
