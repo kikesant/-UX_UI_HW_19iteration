@@ -305,3 +305,30 @@ button {
         align-self: center;
     } 
 }  
+.card-text {
+    font-family: 'Lekton', sans-serif;
+}
+.display-4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.lead {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.display-5 {
+    font-family: 'Titillium Web', sans-serif !important;
+}
+.nav-item  {
+   margin: 0px; 
+   padding: 15px;  
+}
+.jumbotron {
+    align-items: center; 
+ }
+ .bodyh2 {
+    font-family: 'Lekton', sans-serif;
+}
+.card.body {
+    width: 600px !important;
+}    
